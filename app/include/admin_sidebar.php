@@ -30,6 +30,11 @@
         <span class="menu-title">Feedback</span>
       </a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="messages">
+        <i class="mdi mdi-tooltip-outline menu-icon"></i>
+        <span class="menu-title">Messages</span>
+      </a>
     </li>
   </ul>
 </nav>

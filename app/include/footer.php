@@ -29,12 +29,12 @@
 			</div>
 			<div class="content-section contact-wrapper">
 				<h3 class="section-title">Send us a message</h3>
-				<form action="#" method="post" class="contact-form">
+				<form action="<?php echo BASE_URL . '/index.php'; ?>" method="post" class="contact-form">
 					<div class="input-group">
-						<input type="email" name="email" id="email" placeholder="Your email address..." class="input-control contact">
+						<input type="email" name="email" placeholder="Your email address..." class="input-control contact">
 					</div>
 					<div class="input-group">
-						<textarea class="input-control contact" name="message" id="message" cols="30" rows="4" placeholder="Your message"></textarea>
+						<textarea class="input-control contact" name="message" cols="30" rows="4" placeholder="Your message"></textarea>
 					</div>
 					<div class="input-group">
 						<button type="submit" name="send-message" class="btn big-btn primary-btn">Send</button>
@@ -44,6 +44,6 @@
 		</div>
 
 		<div class="copyright-info">
-			<p class="center">Copyright &copy; 2023 | Pre-Natal Iformation System</p>
+			<p class="center">Copyright &copy; 2023 | Pre-Natal Information System</p>
 		</div>
 	</footer>
